@@ -19,7 +19,7 @@ public class SpringbootApplication {
     @RequestMapping("/")
     @ResponseBody
     public String hello() {
-        System.out.println(config.getName() + "--->" + config.getAge());
+        System.out.println(config.getName() + "->" + config.getAge());
         return "hello,springboot";
     }
 
