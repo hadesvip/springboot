@@ -14,6 +14,8 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven'
+//apply plugin: 'jetty'
+
 jar {
 	baseName = 'springboot'
 	version = '0.0.1-SNAPSHOT'
@@ -23,8 +25,8 @@ targetCompatibility = 1.8
 
 repositories {
 	mavenLocal()
+	//maven{url 'http://maven.oschina.net/content/groups/public/'}
 	mavenCentral()
-	maven{url 'http://maven.oschina.net/content/groups/public/'}
 }
 
 
@@ -38,9 +40,9 @@ dependencies {
 }
 
 
-eclipse {
-	classpath {
-		 containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
-		 containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
-	}
-}
+//eclipse {
+//	classpath {
+//		 containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
+//		 containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
+//	}
+//}

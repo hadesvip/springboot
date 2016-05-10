@@ -13,6 +13,8 @@ hs_err_pid*
 
 .idea/
 gradle/
+build/
+.gradle
 springboot.iml
 gradlew
 gradlew.bat
