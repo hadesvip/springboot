@@ -4,7 +4,6 @@ server:
   port: 9090
   context-path: /
 
-
 #spring security
 security:
   user:
@@ -13,8 +12,7 @@ security:
 
 #log:defalut logback
 logging:
-  file: springboot.log
-  path: /log
+  file: log/springboot.log
   level:
         org.springframework.web: DEBUG
 author:
