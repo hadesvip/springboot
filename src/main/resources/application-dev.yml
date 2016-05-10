@@ -1,0 +1,22 @@
+#开发环境
+#tomcat/jetty
+server:
+  port: 9090
+  context-path: /
+
+
+#spring security
+security:
+  user:
+    name: admin
+    password: admin
+
+#log:defalut logback
+logging:
+  file: springboot.log
+  path: /log
+  level:
+        org.springframework.web: DEBUG
+author:
+  name: 张三
+  age: 23
