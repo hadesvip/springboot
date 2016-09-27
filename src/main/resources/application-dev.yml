@@ -5,10 +5,10 @@ server:
   context-path: /
 
 #spring security
-security:
-  user:
-    name: admin
-    password: admin
+#security:
+#  user:
+#    name: admin
+#    password: admin
 
 #log:defalut logback
 logging:

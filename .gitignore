@@ -18,3 +18,4 @@ build/
 springboot.iml
 gradlew
 gradlew.bat
+log/ 
